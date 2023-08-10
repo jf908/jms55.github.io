@@ -1,0 +1,43 @@
+author = "JMS55"
+title = "JMS55's Blog"
+base_url = "https://jms55.github.io"
+compile_sass = false
+build_search_index = true
+generate_feed = true
+minify_html = true
+theme = "papermod"
+taxonomies = [{ name = "tags", feed = true }]
+
+[markdown]
+highlight_code = true
+
+[extra]
+
+[extra.papermod]
+title = "JMS55"
+default_theme = "auto"
+theme = "light"
+language_direction = "auto"
+keywords = []
+show_theme_toggle = true
+show_scroll_to_top = true
+show_code_copy_buttons = true
+show_reading_time = false
+show_word_count = false
+show_post_nav_links = true
+show_post_meta = true
+default_toc_open = false
+edit_post_url = "https://github.com/JMS55/jms55.github.io/tree/main"
+#copyright = ""
+date_format = "%d/%m/%Y"
+navigation = [
+    { url = "$BASE_URL/archive", title = "Archive" },
+    { url = "$BASE_URL/tags", title = "Tags" },
+]
+
+home_title = "JMS55's Blog"
+home_content = "Bevy, Rust, Graphics, etc"
+social_icons = [
+    { url = "https://github.com/jms55", title = "GitHub", icon = "github" },
+    { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
+]
