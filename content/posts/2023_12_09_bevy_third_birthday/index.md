@@ -146,7 +146,7 @@ Another issue is testing. Testing rendering does not lend itself well to unit te
 
 First, I'd like to thank the maintainers of the wgpu and naga crates, of which bevy_render sits atop, for their awesome work. Bevy's renderer would not be possible without them!
 
-These crates, however, form an entirely new graphics API/toolchain, with a focus on wide compatibility and API safety. They don't currently support some of the latest GPU features such as ray tracing, mesh shaders, threadgroup/wave/warp intrinsics, async compute, and mutable binding arrays (bindless textures), or have specific caveats. This is totally understandable after all - not many developers are want or need these things, and it's not WebGPU's focus.
+These crates, however, form an entirely new graphics API/toolchain, with a focus on wide compatibility and API safety. They don't currently support some of the latest GPU features such as ray tracing, mesh shaders, threadgroup/wave/warp intrinsics, async compute, and mutable binding arrays (bindless textures), or have specific caveats. This is totally understandable after all - not many developers want or need these things, and it's not WebGPU's focus.
 
 The solution is of course for us to invest more time in writing those features and helping them out ourselves :). I'm not sure how we foster it, but it would be great to see more investment in wgpu, naga, and naga_oil from Bevy's developers.
 
